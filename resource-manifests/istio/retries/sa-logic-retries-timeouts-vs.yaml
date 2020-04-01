@@ -5,6 +5,8 @@ metadata:
 spec:
   hosts:
     - sa-logic
+  gateways:
+    - http-gateway
   http:
   - route: 
     - destination: 
